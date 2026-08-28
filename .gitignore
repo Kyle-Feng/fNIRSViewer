@@ -1,2 +1,7 @@
 __pycache__/
 *.pyc
+
+# data：只保留 data/raw/MI、data/raw/MA 目录结构作为存放范例；
+# 被试目录（S0X）下为 GB 级大文件，一律不入库
+data/raw/*/*
+!data/raw/*/.gitkeep
